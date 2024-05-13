@@ -1,7 +1,6 @@
 ﻿#include <iostream>
 #include <fstream>
 #include <memory>
-#include <filesystem>
 // N < 256, a_i < 256 для всех i=1..N
 // .txt - массив данных в формате  N и a_i, где i = 1..N (ASCII)
 // .bin - массив данных в формате  N и a_i, где i = 1..N (bin)

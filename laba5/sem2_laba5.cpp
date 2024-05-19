@@ -4,7 +4,7 @@ template <typename A, int m, int n>
 class Matrix
 {
 private:
-    A data[n][m];
+    A data[m][n];
 public:
     Matrix() {
         for (int i = 0; i < m; i++) {
